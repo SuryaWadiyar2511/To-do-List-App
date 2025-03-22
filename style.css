@@ -1,0 +1,45 @@
+
+body {
+    background-image: url('home screen image.jpg'); /* Replace with your actual image file */
+    background-size: cover; /* Ensures it covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: lightgray;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
